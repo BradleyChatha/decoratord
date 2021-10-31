@@ -1,0 +1,14 @@
+name "decorator"
+description "A small betterC compatible library for user-friendly messages."
+authors "Bradley"
+copyright "Copyright © 2021, Bradley Chatha"
+license "MIT"
+dependency "jansi" version="~>0.1.1"
+
+configuration "default" {
+    targetType "library"
+}
+
+configuration "betterC" {
+    dflags "-betterC"
+}
